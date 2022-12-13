@@ -33,6 +33,11 @@ const questions = [
   },
   {
     type: "input",
+    name: "Email",
+    message: "What is your Email contact?",
+  },
+  {
+    type: "input",
     name: "Collaborators",
     message: "Who are the collaborators on this project?",
   },

@@ -52,6 +52,12 @@ function generateMarkdown(data) {
   return `# ${data.Title}
 https://github.com/${data.Github}/${data.Title}
 
+## License
+${renderLicenseSection(data.license)} ${renderLicenseBadge(
+    data.license
+  )} ${renderLicenseLink(data.license)}
+
+
 ## Description
 ${data.Description}
 
@@ -63,14 +69,13 @@ The following necessary dependencies must be installed to run the application pr
 ## Usage
 ${data.Usage}
 
-## Contributing
-Contributors: ${data.Collaborators}
+## Questions
+If you have any questions about the repo, open an issue at https://github.com/${
+    data.Github
+  }?tab=repositories or contact me directly ${data.Email}.
 
-## License
-${renderLicenseSection(data.license)} ${renderLicenseBadge(
-    data.license
-  )} ${renderLicenseLink(data.license)}
-`;
+## Contributing
+Contributors: ${data.Collaborators}`;
 }
 
 module.exports = generateMarkdown;
