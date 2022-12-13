@@ -22,16 +22,16 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   let licenseLink = "";
   if (license === "Apache") {
-    licenseLink = `https://opensource.org/licenses/Apache-2.0`;
+    licenseLink = "(https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "MIT") {
-    licenseLink = `https://opensource.org/licenses/MIT`;
+    licenseLink = "(https://opensource.org/licenses/MIT)";
   } else if (license === "Mozilla") {
-    licenseLink = `https://opensource.org/licenses/MPL-2.0`;
+    licenseLink = "(https://opensource.org/licenses/MPL-2.0)";
   } else if (license === "None") {
     licenseLink = "";
   }
 
-  return "";
+  return licenseLink;
 }
 
 // TODO: Create a function that returns the license section of README
