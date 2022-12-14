@@ -37,7 +37,7 @@ The following necessary dependencies must be installed to run the application pr
 
 ## Usage
 
-Once you `cd` into the repo, the application will be invoked by using the following command: `node index.js`. Answer the prompts about your project and your README will be generated at the end. Link to Application Walkthrough Video: (https://drive.google.com/file/d/1OzA055PfXFJ7R2L3z_bzKLLaeNUpgzTn/view)
+Once you `cd` into the repo, the application will be invoked by using the following command: `node index.js`. Answer the prompts about your project and your README will be generated at the end. Link to Application Walkthrough Video: (https://drive.google.com/file/d/1Q96t35OUEcREHm2HeqA3AOBrHA5ZjmW4/view)
 
 ## Questions
 
