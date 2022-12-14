@@ -6,15 +6,29 @@ https://github.com/luksvrd/README Generator
 
 License: MIT ![MIT license](https://img.shields.io/badge/license-MIT-blue.svg) (https://opensource.org/licenses/MIT)
 
+## Table of Contents
+
+### \* [License](#license)
+
+### \* [Description](#description)
+
+### \* [Installation](#installation)
+
+### \* [Usage](#usage)
+
+### \* [Questions](#questions)
+
+### \* [Contributing](#contributing)
+
 ## Description
 
 Quickly and easily create a README file by using a command-line application to generate one.
 
 ## Installation
 
-The following necessary dependencies must be installed to run the application properly: Use of this Generator assumes that you have a 'complete dev environment' setup - a terminal, Node, VS Code, at least. Fork the repository and clone the new repo form your Github to your local computer. cd into the cloned repo and enter: npm i
+The following necessary dependencies must be installed to run the application properly:
 
-## Some of What's Included
+- This Generator assumes you have a 'complete dev environment' setup - a terminal, Node, & VS Code. To get started, Fork the repository and clone the new repo from your Github to your local computer. `cd` into the cloned repo and enter: `npm i`
 
 - [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 - [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -23,7 +37,7 @@ The following necessary dependencies must be installed to run the application pr
 
 ## Usage
 
-Once you have cd'd into the repo, the application will be invoked by using the following command: node index.js. Answer the prompts about your project and your README will be generated at the end. Link to Application Walkthrough Video: (https://drive.google.com/file/d/1OzA055PfXFJ7R2L3z_bzKLLaeNUpgzTn/view)
+Once you `cd` into the repo, the application will be invoked by using the following command: `node index.js`. Answer the prompts about your project and your README will be generated at the end. Link to Application Walkthrough Video: (https://drive.google.com/file/d/1OzA055PfXFJ7R2L3z_bzKLLaeNUpgzTn/view)
 
 ## Questions
 
