@@ -57,6 +57,13 @@ ${renderLicenseSection(data.license)} ${renderLicenseBadge(
     data.license
   )} ${renderLicenseLink(data.license)}
 
+## Table of Contents
+### * [License](#license)
+### * [Description](#description)
+### * [Installation](#installation)
+### * [Usage](#usage)
+### * [Questions](#questions)
+### * [Contributing](#contributing)
 
 ## Description
 ${data.Description}
